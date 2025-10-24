@@ -28,3 +28,15 @@ export interface CertificateType {
   description_en: string;
   img: string;
 }
+
+export interface TimelineType {
+  id?: string;
+  title_vi: string;
+  title_en: string;
+  date: string;
+  description_vi: string;
+  description_en: string;
+  skils: string[];
+  icon: React.ReactNode;
+  logo: string;
+}

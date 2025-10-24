@@ -5,6 +5,7 @@ import AntDesignProvider from './+core/provider/AntDesignProvider';
 import { router } from './routes/router';
 import './i18n';
 import 'animate.css';
+import 'react-vertical-timeline-component/style.min.css';
 import './styles/globals.scss';
 
 function App() {

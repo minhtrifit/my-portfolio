@@ -1,6 +1,8 @@
 import HeroSection from './components/hero-section/HeroSection';
 import AboutSection from './components/about-section/AboutSection';
 import EduSection from './components/edu-section/EduSection';
+import CarrerSection from './components/carrer-section/CarrerSection';
+import ProjectSection from './components/project-section/ProjectSection';
 
 export function HomePage() {
   return (
@@ -8,6 +10,8 @@ export function HomePage() {
       <HeroSection />
       <AboutSection />
       <EduSection />
+      <CarrerSection />
+      <ProjectSection />
     </div>
   );
 }
