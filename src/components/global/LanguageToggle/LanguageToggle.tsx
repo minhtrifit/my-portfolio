@@ -53,7 +53,9 @@ const LanguageToggle = () => {
         <Space>
           <Avatar src={renderLanguage(i18n.language).icon} />
 
-          <Typography className='text-[#FFF]'>{renderLanguage(i18n.language).label}</Typography>
+          <Typography className='text-[#FFF]'>
+            {renderLanguage(i18n.language).label.toLocaleUpperCase()}
+          </Typography>
         </Space>
       </div>
     </Dropdown>

@@ -1,12 +1,14 @@
 import { v4 as uuidv4 } from 'uuid';
+import { get } from 'lodash';
 import Marquee from 'react-fast-marquee';
 import { Button } from 'antd';
 import { useInView } from 'react-intersection-observer';
 import { useTranslation } from 'react-i18next';
 import { FaPhone } from 'react-icons/fa';
+import { TechStackType } from '@/types';
 
 const AboutSection = () => {
-  const TECH_STACK = [
+  const TECH_STACK: TechStackType[] = [
     { name: 'html', logo: '/assets/icons/technicals/html.png' },
     { name: 'css', logo: '/assets/icons/technicals/css.png' },
     { name: 'javascript', logo: '/assets/icons/technicals/javascript.png' },
@@ -33,7 +35,7 @@ const AboutSection = () => {
   });
 
   return (
-    <section className='w-full flex bg-secondary-gray'>
+    <section className='w-full flex bg-secondary-gray overflow-x-hidden'>
       <div
         className='mx-auto w-full max-w-[1024px] px-[16px] my-[100px]
                     grid grid-cols-1 lg:grid-cols-[350px_1fr] gap-[50px]'
@@ -69,8 +71,12 @@ const AboutSection = () => {
             {TECH_STACK.map((tech: { name: string; logo: string }) => {
               return (
                 <div key={uuidv4()} className='mx-10 h-[100px]'>
-                  <div className='w-full h-full bg-primary-gray px-6 rounded-md flex items-center justify-center '>
-                    <img src={tech.logo} className='w-[60px]' alt={`${tech.name}-logo`} />
+                  <div className='w-full h-full bg-primary-gray px-6 rounded-md flex items-center justify-center'>
+                    <img
+                      src={get(tech, 'logo', '')}
+                      className='w-[60px]'
+                      alt={`${get(tech, 'name', '')}-logo`}
+                    />
                   </div>
                 </div>
               );
