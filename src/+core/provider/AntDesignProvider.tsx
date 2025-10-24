@@ -1,5 +1,5 @@
 import React from 'react';
-import { ConfigProvider } from 'antd';
+import { ConfigProvider, theme } from 'antd';
 import viVN from 'antd/locale/vi_VN';
 import enUS from 'antd/locale/en_US';
 import dayjs from 'dayjs';
@@ -20,6 +20,7 @@ export default function AntDesignProvider({ children }: { children: React.ReactN
     <ConfigProvider
       locale={antdLocale}
       theme={{
+        algorithm: theme.darkAlgorithm,
         token: {
           colorPrimary: '#14b3ea',
           fontFamily: 'Inter, sans-serif',

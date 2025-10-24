@@ -77,9 +77,9 @@ const HeroSection = () => {
 
         <img
           ref={imgRef}
-          className={`opacity-0 transition-opacity duration-700 w-[350px] ${
-            imgInView ? 'opacity-100 animate__animated animate__zoomIn' : ''
-          }`}
+          className={`opacity-0 transition-opacity duration-700 w-[350px]
+                        ${imgInView ? 'opacity-100 animate__animated animate__zoomIn' : ''}
+                    `}
           src='/assets/images/sword-pose-2.png'
           alt='hero-img'
         />

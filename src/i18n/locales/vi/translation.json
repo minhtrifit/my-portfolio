@@ -1,5 +1,9 @@
 {
   "hello": "Xin chào",
   "i-am-tri": "Tớ là Minh Trí",
-  "software-engineer": "Một lập trình viên"
+  "software-engineer": "Một lập trình viên",
+  "introduction": "Giới thiệu",
+  "detail-introduction": "Xin chào, mình là Minh Trí (Tris) — một Frontend Developer đam mê xây dựng các ứng dụng web tương tác và thân thiện với người dùng. Mình chuyên về các công nghệ frontend hiện đại như React và Next.js, tạo ra những trải nghiệm người dùng mượt mà và linh hoạt trên mọi thiết bị. Với nền tảng vững chắc về HTML, CSS, JavaScript và TypeScript, mình luôn chú trọng viết mã sạch, dễ bảo trì và tối ưu hiệu năng. Mình luôn háo hức học hỏi và khám phá những công nghệ mới để không ngừng nâng cao kỹ năng của bản thân. Hãy cùng kết nối và tạo nên điều tuyệt vời nhé!",
+  "contact": "Liên hệ",
+  "tech-stack": "Công Nghệ"
 }
