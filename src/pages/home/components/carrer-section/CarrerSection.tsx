@@ -14,6 +14,16 @@ const CarrerSection = () => {
 
   const TIME_LINE: TimelineType[] = [
     {
+      title_vi: 'Techhaus Vietnam JSC',
+      title_en: 'Techhaus Vietnam JSC',
+      date: `2025 - ${t('now')}`,
+      description_vi: 'Lập trình viên Front-end',
+      description_en: 'Front-end developer',
+      icon: <MdOutlineWork />,
+      skils: ['ReactJS', 'TypeScript', 'TailwindCSS', 'AntDesign'],
+      logo: '/assets/icons/techhaus.png',
+    },
+    {
       title_vi: 'Trường Đại học Khoa Học Tự Nhiên - ĐHQG TPHCM',
       title_en: 'University of Science - VNU HCM',
       date: '2020 - 2024',
@@ -28,16 +38,6 @@ const CarrerSection = () => {
       ],
       icon: <FaPen />,
       logo: '/assets/icons/hcmus.png',
-    },
-    {
-      title_vi: 'Techhaus Vietnam JSC',
-      title_en: 'Techhaus Vietnam JSC',
-      date: `2025 - ${t('now')}`,
-      description_vi: 'Lập trình viên Front-end',
-      description_en: 'Front-end developer',
-      icon: <MdOutlineWork />,
-      skils: ['ReactJS', 'TypeScript', 'TailwindCSS', 'AntDesign'],
-      logo: '/assets/icons/techhaus.png',
     },
   ];
 

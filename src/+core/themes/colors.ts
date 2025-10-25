@@ -1,11 +1,5 @@
 export default {
-  primary: {
-    900: '#0A2277',
-    800: '#3D64EE',
-    600: '#4EA8B4',
-    500: '#5BB9E2',
-    400: '#ADBDF8',
-  },
+  primary: '#14b3ea',
   gray: {
     800: '#B6B6B6',
     700: '#838B8F',

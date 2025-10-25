@@ -12,5 +12,7 @@
   "edu-certi": "Education & Certificate",
   "now": "Now",
   "process": "Process",
-  "projects": "Projects"
+  "projects": "Projects",
+  "page-not-found": "Sorry, the page you visited does not exist",
+  "back-homepage": "Back to homepage"
 }

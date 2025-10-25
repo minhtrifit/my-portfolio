@@ -6,53 +6,60 @@ import { useIsMobile } from '@/hooks/useIsMobile';
 import { useScrollToId } from '@/hooks/useScrollToId';
 import { useActiveSection } from '@/hooks/useActiveSection';
 import { IoMdMenu } from 'react-icons/io';
+import { MdHome, MdOutlineTimeline } from 'react-icons/md';
+import { FaUserNinja } from 'react-icons/fa6';
+import { GrCertificate } from 'react-icons/gr';
+import { FaCode } from 'react-icons/fa';
 import LanguageToggle from '../LanguageToggle/LanguageToggle';
 
 import styles from './styles.module.scss';
+
+interface NavMenuType {
+  key: string;
+  name: string;
+  id: string;
+  icon: React.ReactNode;
+}
 
 const Header = () => {
   const location = useLocation();
   const navigate = useNavigate();
   const scrollToId = useScrollToId(70);
-  const isMobile = useIsMobile(768);
+  const isMobile = useIsMobile(1024);
   const { t } = useTranslation();
 
-  // const [activeSection, setActiveSection] = useState<string>('home-section');
   const [openMenu, setOpenMenu] = useState<boolean>(false);
 
-  // useActiveSection(
-  //   ['home-section', 'about-section', 'certificate-section', 'process-section', 'project-section'],
-  //   (value: string) => {
-  //     console.log(value);
-  //     setActiveSection(value);
-  //   },
-  // );
-
-  const NAVIGATIONS = [
+  const NAVIGATIONS: NavMenuType[] = [
     {
       key: 'home-navigate',
       name: t('home'),
       id: 'home-section',
+      icon: <MdHome size={20} />,
     },
     {
       key: 'about-navigate',
       name: t('about'),
       id: 'about-section',
+      icon: <FaUserNinja size={15} />,
     },
     {
       key: 'certificate-navigate',
       name: t('certificate'),
       id: 'certificate-section',
+      icon: <GrCertificate size={20} />,
     },
     {
       key: 'process-navigate',
       name: t('process'),
       id: 'process-section',
+      icon: <MdOutlineTimeline size={20} />,
     },
     {
       key: 'project-navigate',
       name: t('projects'),
       id: 'project-section',
+      icon: <FaCode size={20} />,
     },
   ];
 
@@ -64,14 +71,11 @@ const Header = () => {
         top: 0,
         behavior: 'smooth',
       });
-
-      // setActiveSection('home-section');
     }
   };
 
   const handleNavigateItem = (id: string) => {
     scrollToId(id);
-    // setActiveSection(id);
   };
 
   const showMenu = () => {
@@ -100,12 +104,13 @@ const Header = () => {
             return (
               <li key={item.key} className='list-none'>
                 <div
-                  className='px-8 py-4 hover:cursor-pointer'
+                  className='px-8 py-4 flex items-center gap-3 hover:cursor-pointer'
                   onClick={() => {
                     handleNavigateItem(item.id);
                     onCloseMenu();
                   }}
                 >
+                  {item.icon}
                   <span className={`text-[0.9rem] font-semibold`}>{item.name}</span>
                 </div>
               </li>
@@ -129,19 +134,15 @@ const Header = () => {
                 return (
                   <li key={item.key} className='list-none'>
                     <div
-                      className={'relative h-full mt-3 hover:cursor-pointer'}
+                      className={
+                        'h-full flex items-center gap-2 hover:text-primary hover:cursor-pointer'
+                      }
                       onClick={() => {
                         handleNavigateItem(item.id);
                       }}
                     >
+                      {item.icon}
                       <span className={`text-[0.9rem] font-semibold`}>{item.name}</span>
-
-                      {/* {item.id === activeSection && (
-                        <div
-                          className='absolute bottom-[10px] left-1/2 -translate-x-1/2
-                                      w-[30px] h-[6px] bg-primary rounded-md'
-                        />
-                      )} */}
                     </div>
                   </li>
                 );
