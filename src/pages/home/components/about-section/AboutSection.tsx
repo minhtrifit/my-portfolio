@@ -35,7 +35,7 @@ const AboutSection = () => {
   });
 
   return (
-    <section className='w-full flex bg-secondary-gray overflow-x-hidden'>
+    <section id='about-section' className='w-full flex bg-secondary-gray overflow-x-hidden'>
       <div
         className='mx-auto w-full max-w-[1024px] px-[16px] my-[100px]
                     grid grid-cols-1 lg:grid-cols-[350px_1fr] gap-[50px]'
@@ -71,11 +71,11 @@ const AboutSection = () => {
           <Marquee autoFill>
             {TECH_STACK.map((tech: { name: string; logo: string }) => {
               return (
-                <div key={uuidv4()} className='mx-10 h-[100px]'>
+                <div key={uuidv4()} className='mx-10 h-[80px]'>
                   <div className='w-full h-full bg-primary-gray px-6 rounded-md flex items-center justify-center'>
                     <img
                       src={get(tech, 'logo', '')}
-                      className='w-[60px]'
+                      className='w-[50px]'
                       alt={`${get(tech, 'name', '')}-logo`}
                     />
                   </div>

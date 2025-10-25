@@ -98,7 +98,7 @@ const ProjectSection = () => {
   const projects = get(data, 'data', []);
 
   return (
-    <section className='w-full flex overflow-x-hidden'>
+    <section id='project-section' className='w-full flex overflow-x-hidden'>
       <div className='mx-auto w-full max-w-[1024px] px-[16px] my-[100px]'>
         <h2 className='text-center text-primary text-[2rem]'>{t('projects')}</h2>
 

@@ -65,7 +65,7 @@ const EduSection = () => {
   });
 
   return (
-    <section className='w-full flex overflow-x-hidden'>
+    <section id='certificate-section' className='w-full flex overflow-x-hidden'>
       <div
         className='mx-auto w-full max-w-[1024px] px-[16px] my-[100px]
                     grid grid-cols-1 lg:grid-cols-[1fr_350px] gap-[50px]'

@@ -18,7 +18,7 @@ const HeroSection = () => {
   });
 
   return (
-    <section className='w-full flex overflow-x-hidden'>
+    <section id='home-section' className='w-full flex overflow-x-hidden'>
       <div
         className={`mx-auto w-full max-w-[1024px] min-h-[calc(100vh-70px)] px-[16px]
                     flex flex-wrap items-center justify-center sm:justify-between gap-[50px]`}

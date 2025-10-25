@@ -42,7 +42,7 @@ const CarrerSection = () => {
   ];
 
   return (
-    <section className='w-full flex bg-secondary-gray overflow-x-hidden'>
+    <section id='process-section' className='w-full flex bg-secondary-gray overflow-x-hidden'>
       <div className='mx-auto w-full max-w-[1024px] px-[16px] my-[100px]'>
         <h2 className='text-center text-primary text-[2rem]'>{t('process')}</h2>
 
