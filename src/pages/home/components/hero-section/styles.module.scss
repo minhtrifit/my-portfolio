@@ -1,5 +1,5 @@
 .text {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 600;
   color: #fff;
 }
@@ -17,5 +17,11 @@
   }
   50% {
     opacity: 0;
+  }
+}
+
+@media (min-width: 640px) {
+  .text {
+    font-size: 2rem;
   }
 }

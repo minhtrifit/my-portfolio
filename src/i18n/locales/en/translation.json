@@ -8,11 +8,24 @@
   "introduction": "Introduction",
   "detail-introduction": "Hi, I'm Minh Tri (Tris), a Frontend Developer passionate about building interactive and user-friendly web applications. I specialize in modern frontend technologies like React, Next.js, creating seamless and responsive user experiences. With a strong foundation in HTML, CSS, JavaScript, and TypeScript, I focus on writing clean, maintainable code while optimizing performance. I'm always eager to learn and explore new technologies to enhance my skills. Let’s connect and build something amazing!",
   "contact": "Contact",
+  "skills": "Skills",
+  "skills-description": "Through self-study and practical experience, I have developed strong skills and knowledge in",
+  "skills-list": {
+    "title-1": "Website Design & Development",
+    "description-1": "Build professional websites such as Landing Pages, E-commerce platforms, Business, and Service websites.",
+    "title-2": "Web Application Development",
+    "description-2": "Design, develop, and maintain web applications like CMS, ERP, and CRM tailored to real-world needs.",
+    "title-3": "Consulting & Solution Implementation",
+    "description-3": "Provide analysis, consultation, and solution recommendations to optimize product development and align with business goals."
+  },
   "tech-stack": "Tech Stack",
+  "tech-description": "Technologies I use in my projects & work",
   "edu-certi": "Education & Certificate",
   "now": "Now",
   "process": "Process",
   "projects": "Projects",
   "page-not-found": "Sorry, the page you visited does not exist",
-  "back-homepage": "Back to homepage"
+  "back-homepage": "Back to homepage",
+  "learn-more": "Learn more",
+  "download-resume": "Download resume"
 }

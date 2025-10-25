@@ -8,11 +8,24 @@
   "introduction": "Giới thiệu",
   "detail-introduction": "Xin chào, mình là Minh Trí (Tris) — một Frontend Developer đam mê xây dựng các ứng dụng web tương tác và thân thiện với người dùng. Mình chuyên về các công nghệ frontend hiện đại như React và Next.js, tạo ra những trải nghiệm người dùng mượt mà và linh hoạt trên mọi thiết bị. Với nền tảng vững chắc về HTML, CSS, JavaScript và TypeScript, mình luôn chú trọng viết mã sạch, dễ bảo trì và tối ưu hiệu năng. Mình luôn háo hức học hỏi và khám phá những công nghệ mới để không ngừng nâng cao kỹ năng của bản thân. Hãy cùng kết nối và tạo nên điều tuyệt vời nhé!",
   "contact": "Liên hệ",
+  "skills": "Kỹ Năng",
+  "skills-description": "Qua quá trình tự tìm tòi, học hỏi và trải nghiệm trong môi trường thực tế, mình đã tích lũy được nhiều kinh nghiệm và kỹ năng về",
+  "skills-list": {
+    "title-1": "Thiết kế & Phát triển Website",
+    "description-1": "Xây dựng các website chuyên nghiệp như Landing Page, E-commerce, Doanh nghiệp và Dịch vụ.",
+    "title-2": "Phát triển Ứng dụng Web",
+    "description-2": "Thiết kế, xây dựng và bảo trì các ứng dụng Web như CMS, ERP, CRM theo nhu cầu thực tế.",
+    "title-3": "Tư vấn & Triển khai Giải pháp",
+    "description-3": "Hỗ trợ phân tích, tư vấn và đề xuất giải pháp phát triển sản phẩm tối ưu, phù hợp mục tiêu kinh doanh."
+  },
   "tech-stack": "Công Nghệ",
+  "tech-description": "Các công nghệ mình sử dụng trong các dự án & công việc",
   "edu-certi": "Học vấn & Chứng Chỉ",
   "now": "Hiện tại",
   "process": "Quá trình",
   "projects": "Dự án",
   "page-not-found": "Xin lũi, trang này không có ạ",
-  "back-homepage": "Trở về trang chủ"
+  "back-homepage": "Trở về trang chủ",
+  "learn-more": "Tìm hiểu thêm",
+  "download-resume": "Tải hồ sơ"
 }
