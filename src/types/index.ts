@@ -40,3 +40,14 @@ export interface TimelineType {
   icon: React.ReactNode;
   logo: string;
 }
+
+export interface ProjectType {
+  id?: string;
+  name: string;
+  desciption: string;
+  date: string;
+  banner: string;
+  stacks: string[];
+  demo_url: string;
+  code_url: string;
+}

@@ -16,7 +16,7 @@ const Card = (props: CardPropType) => {
 
   const { ref, inView } = useInView({
     triggerOnce: true,
-    threshold: 0.2,
+    threshold: 0.5,
   });
 
   return (
@@ -61,7 +61,7 @@ const EduSection = () => {
 
   const { ref: imgRef, inView: imgInView } = useInView({
     triggerOnce: true,
-    threshold: 0.2,
+    threshold: 0.5,
   });
 
   return (

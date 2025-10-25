@@ -1,0 +1,7 @@
+.project__card {
+  :global(.ant-image-mask) {
+    margin: 1px !important;
+    border-top-left-radius: 8px !important;
+    border-top-right-radius: 8px !important;
+  }
+}

@@ -26,12 +26,12 @@ const AboutSection = () => {
 
   const { ref: imgRef, inView: imgInView } = useInView({
     triggerOnce: true,
-    threshold: 0.2,
+    threshold: 0.5,
   });
 
   const { ref, inView } = useInView({
     triggerOnce: true,
-    threshold: 0.2,
+    threshold: 0.5,
   });
 
   return (
@@ -50,8 +50,9 @@ const AboutSection = () => {
         />
 
         <div
+          ref={ref}
           className={`opacity-0 transition-opacity duration-700 primary-card
-                        ${imgInView ? 'opacity-100 animate__animated animate__fadeInRight' : ''}
+                        ${inView ? 'opacity-100 animate__animated animate__fadeInRight' : ''}
                     `}
         >
           <h2 className='text-primary'>{t('introduction')}</h2>

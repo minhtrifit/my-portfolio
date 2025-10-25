@@ -1,0 +1,64 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "name": "Windows 11 Clone",
+      "desciption": "Web application simulate operating system inspired from Windows 11",
+      "date": "28/09/2024",
+      "banner": "/assets/images/projects/windows-11-clone.png",
+      "stacks": ["nextjs", "typescript", "firebase", "tailwindcss"],
+      "demo_url": "https://www.youtube.com/watch?v=PtsflG2W43g",
+      "code_url": "https://github.com/minhtrifit/windows-11-clone"
+    },
+    {
+      "id": "2",
+      "name": "Discord Clone",
+      "desciption": "Web application for real-time messaging, and user management, inspired from Discord",
+      "date": "19/02/2024",
+      "banner": "/assets/images/projects/discord-clone.png",
+      "stacks": ["nextjs", "typescript", "nestjs", "postgresql", "supabase"],
+      "demo_url": "https://www.youtube.com/watch?v=L8ixcX2tIdk",
+      "code_url": "https://github.com/minhtrifit/discord-clone-client"
+    },
+    {
+      "id": "3",
+      "name": "Sportify Clone",
+      "desciption": "Music web player inspired from Spotify 2.0",
+      "date": "22/12/2023",
+      "banner": "/assets/images/projects/spotify-clone.png",
+      "stacks": ["reactjs", "spring", "mysql"],
+      "demo_url": "https://www.youtube.com/watch?v=iLBWCdZQNpQ",
+      "code_url": "https://github.com/minhtrifit/spotify-clone-client"
+    },
+    {
+      "id": "4",
+      "name": "SlearningLab",
+      "desciption": "Web application for online education management, inspired from Google Classroom",
+      "date": "27/08/2023",
+      "banner": "/assets/images/projects/slearning-lab.png",
+      "stacks": ["reactjs", "nestjs", "postgresql"],
+      "demo_url": "https://www.youtube.com/watch?v=g9WHplySekY",
+      "code_url": "https://github.com/minhtrifit/slearninglab-client"
+    },
+    {
+      "id": "5",
+      "name": "Figure Shopping",
+      "desciption": "Shopping & Forum Website for trading figure",
+      "date": "10/05/2023",
+      "banner": "/assets/images/projects/figure-shop.png",
+      "stacks": ["reactjs", "nodejs", "firebase", "postgresql"],
+      "demo_url": "https://www.youtube.com/watch?v=rg2LySuBm0I",
+      "code_url": "https://github.com/minhtrifit/pern-figure-world-client"
+    },
+    {
+      "id": "6",
+      "name": "VietNam Driving License",
+      "desciption": "Web application training for VietNam driving license multiple choice test",
+      "date": "12/02/2023",
+      "banner": "/assets/images/projects/driving-license.png",
+      "stacks": ["html", "css", "nodejs", "postgresql"],
+      "demo_url": "https://www.youtube.com/watch?v=JDg3TORhMEE",
+      "code_url": "https://github.com/minhtrifit/driving-license-nodejs"
+    }
+  ]
+}
