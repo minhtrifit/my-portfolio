@@ -47,11 +47,11 @@ const HeroSection = () => {
                         ${inView ? 'opacity-100 animate__animated animate__zoomIn' : ''}
                     `}
           >
-            <h1 className='text-primary text-[3rem] sm:text-[4rem]'>{t('hello')},</h1>
+            <h1 className='text-primary text-[3rem] sm:text-[4rem]'>{t('hello-im')}</h1>
 
             <Typewriter
               options={{
-                strings: [t('i-am-tri'), t('software-engineer')],
+                strings: [t('minh-tri'), t('software-engineer')],
                 autoStart: true,
                 loop: true,
                 delay: 60,

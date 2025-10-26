@@ -50,7 +50,7 @@ const AboutSection = () => {
       >
         <img
           ref={imgRef}
-          className={`opacity-0 transition-opacity duration-700 w-[350px] mx-auto
+          className={`opacity-0 transition-opacity duration-700 w-[250px] sm:w-[350px] mx-auto
                         ${imgInView ? 'opacity-100 animate__animated animate__fadeInLeft' : ''}
                     `}
           src='/assets/images/typing-1.png'

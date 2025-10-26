@@ -3,7 +3,9 @@
   "about": "About",
   "certificate": "Certificate",
   "hello": "Hi there",
+  "hello-im": "Hi there, I'm",
   "i-am-tri": "I'm Minh Tris",
+  "minh-tri": "Minh Tris",
   "software-engineer": "Software Engineer",
   "introduction": "Introduction",
   "detail-introduction": "Hi, I'm Minh Tri (Tris), a Frontend Developer passionate about building interactive and user-friendly web applications. I specialize in modern frontend technologies like React, Next.js, creating seamless and responsive user experiences. With a strong foundation in HTML, CSS, JavaScript, and TypeScript, I focus on writing clean, maintainable code while optimizing performance. I'm always eager to learn and explore new technologies to enhance my skills. Let’s connect and build something amazing!",
@@ -27,5 +29,10 @@
   "page-not-found": "Sorry, the page you visited does not exist",
   "back-homepage": "Back to homepage",
   "learn-more": "Learn more",
-  "download-resume": "Download resume"
+  "download-resume": "Download resume",
+  "this-field-is-required": "This field is required",
+  "invalid-email": "Invalid email",
+  "get-lastest-updates": "Get the latest updates",
+  "register": "Register",
+  "send-successfully": "Send successfully"
 }
