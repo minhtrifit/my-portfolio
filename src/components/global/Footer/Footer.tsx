@@ -60,7 +60,7 @@ const Footer = () => {
                   shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1),_0_-2px_4px_-2px_rgba(0,0,0,0.1)]'
     >
       <div className='mx-auto w-full max-w-[1024px] flex flex-col items-center justify-center'>
-        <div className='my-5 w-full grid grid-cols-1 md:grid-cols-[60%_40%] gap-[30px] sm:gap-[100px]'>
+        <div className='my-5 w-full grid grid-cols-1 md:grid-cols-[60%_1fr] gap-[30px] sm:gap-[100px]'>
           <form className='w-full' onSubmit={handleSubmit(onSubmit, onError)}>
             <span className='text-[0.95rem]'>{t('get-lastest-updates')}</span>
 
@@ -89,7 +89,7 @@ const Footer = () => {
             </div>
           </form>
 
-          <div className='flex flex-wrap items-center gap-5'>
+          <div className='w-full flex flex-wrap items-center gap-5'>
             <div className='flex flex-col gap-3 items-start'>
               <span className='text-[0.95rem]'>{t('contact')}</span>
 

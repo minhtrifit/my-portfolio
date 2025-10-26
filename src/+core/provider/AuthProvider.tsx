@@ -36,8 +36,6 @@ const AuthProvider = ({ children }: PropType) => {
         ...userProfile,
       };
 
-      console.log('AUTH PROVIDER:', AuthUser);
-
       Cookies.set(APP_NAME, JSON.stringify(AuthUser), {
         expires: 7, // 7 ngày
         path: '/', // toàn bộ site
